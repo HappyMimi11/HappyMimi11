@@ -22,7 +22,7 @@ def main():
                 st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
         st.title("🎤 Audio Transcription App")
-        st.markdown("Convert your audio files to text using Whisper AI")
+        st.markdown("Convert your audio files to text using Whisper AI! 🤖")
 
         # Model selection
         st.subheader("1. Select Transcription Model")
@@ -120,11 +120,11 @@ def main():
 
         # Display supported formats
         st.markdown("---")
-        st.markdown("### Tips & Tricks")
+        st.markdown("### Tips")
         st.markdown("1. Optimised for English-only.")
         st.markdown("2. Try to keep the background noise to a minimum.")
-        st.markdown("3. Transcription accuracy is mostly based on the accent (unfortunately) and clearness of articulation.")
-
+        st.markdown("3. Transcription accuracy is mostly based on your accent and clearness of articulation.")
+                    
     except Exception as e:
         st.error(f"Application error: {str(e)}")
         st.error("Please try refreshing the page. If the error persists, contact support.")
