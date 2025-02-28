@@ -10,9 +10,11 @@ SUPPORTED_FORMATS = [
 ]
 
 MODELS = {
+    "large-v3-turbo": {"accuracy": "94%-98%", "speed": "±8x speed"},
     "tiny.en": {"accuracy": "85%-94%", "speed": "±10x speed"},
     "base.en": {"accuracy": "90%-96%", "speed": "±7x speed"},
-    "small.en": {"accuracy": "93%-97%", "speed": "±4x speed"}
+    "small.en": {"accuracy": "93%-97%", "speed": "±4x speed"},
+    "large-v3": {"accuracy": "95%-98%", "speed": "±1x speed"}
 }
 
 @st.cache_resource
