@@ -6,6 +6,7 @@ import streamlit as st
 from faster_whisper import WhisperModel
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 import subprocess
+brew install ffmpeg 
 
 SUPPORTED_FORMATS = [
     "mp3", "wav", "aac", "flac", "ogg", "m4a", 
