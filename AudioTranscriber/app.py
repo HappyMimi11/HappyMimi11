@@ -120,9 +120,10 @@ def main():
 
         # Display supported formats
         st.markdown("---")
-        st.markdown("### Supported Formats")
-        st.markdown(", ".join(SUPPORTED_FORMATS).upper())
-        st.markdown("Maximum file size: 200MB")
+        st.markdown("### Tips & Tricks")
+        st.markdown("1. Optimised for English-only.")
+        st.markdown("2. Try to keep the background noise to a minimum.")
+        st.markdown("3. Transcription accuracy is mostly based on the accent (unfortunately) and clearness of articulation.")
 
     except Exception as e:
         st.error(f"Application error: {str(e)}")
